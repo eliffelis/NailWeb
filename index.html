@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katia Beauty - Güzellik Salonu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <div class="logo-main">
+                    <span class="logo-first">Katia</span>
+                    <span class="logo-second">Beauty</span>
+                </div>
+            </a>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menüyü Aç/Kapat">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="nav-menu">
+            <ul class="nav-list">
+                <li><a href="#top">Anasayfa</a></li>
+                <li><a href="#about">Hakkımızda</a></li>
+                <li class="dropdown">
+                    <a href="#services" class="dropbtn">Hizmetlerimiz</a>
+                    <div class="dropdown-content">
+                        <a href="#gallery">Protez Tırnak</a>
+                        <a href="#gallery">İpek Kirpik</a>
+                        <a href="#gallery">Cilt Bakımı</a>
+                    </div>
+                </li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Mükemmel Tırnaklar, Kusursuz Görünüm</h1>
+            <p>Protez tırnak, kalıcı oje ve tırnak bakımı konusunda uzman ekibimizle hayalinizdeki tırnaklara kavuşun. En son trendleri ve teknikleri kullanarak size özel tasarımlar sunuyoruz.</p>
+            <a href="#contact" class="cta-button">Randevu Alın</a>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <span class="section-subtitle">Hakkımızda</span>
+                        <h2 class="section-title">Güzelliğinize Değer Katıyoruz</h2>
+                        <p class="description">
+                            Katia Beauty olarak, 15 yıllık deneyimimizle güzellik sektöründe öncü bir konumda yer alıyoruz. 
+                            Profesyonel ekibimiz ve modern tekniklerimizle, sizlere en kaliteli hizmeti sunmayı amaçlıyoruz.
+                        </p>
+                        <div class="about-features">
+                            <div class="feature">
+                                <div class="feature-icon">✨</div>
+                                <h3>Uzman Kadro</h3>
+                                <p>Deneyimli ve profesyonel ekibimizle size özel çözümler sunuyoruz.</p>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon">🏆</div>
+                                <h3>Kaliteli Hizmet</h3>
+                                <p>En son teknikleri ve kaliteli ürünleri kullanarak mükemmel sonuçlar elde ediyoruz.</p>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon">💝</div>
+                                <h3>Müşteri Memnuniyeti</h3>
+                                <p>Müşterilerimizin mutluluğu ve memnuniyeti bizim önceliğimizdir.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/about-beauty.jpg" alt="Katia Beauty - Profesyonel Güzellik Hizmetleri">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-services" id="services">
+            <div class="container">
+                <div class="services-intro">
+                    <span class="section-subtitle">Hizmetlerimiz</span>
+                    <h2 class="section-title">Güzelliğiniz İçin Buradayız</h2>
+                </div>
+                <div class="services-wrapper">
+                    <div class="service-box">
+                        <div class="service-icon">💅</div>
+                        <h3>Protez Tırnak</h3>
+                        <p>Uzun ömürlü ve şık tırnaklar için profesyonel protez tırnak uygulaması</p>
+                        <a href="#gallery" class="service-btn">İncele</a>
+                    </div>
+                    <div class="service-box">
+                        <div class="service-icon">👁️</div>
+                        <h3>İpek Kirpik</h3>
+                        <p>Doğal görünümlü ipek kirpikler ile büyüleyici bakışlar</p>
+                        <a href="#gallery" class="service-btn">İncele</a>
+                    </div>
+                    <div class="service-box">
+                        <div class="service-icon">✨</div>
+                        <h3>Cilt Bakımı</h3>
+                        <p>Cildinize özel profesyonel bakım ve tedavi uygulamaları</p>
+                        <a href="#gallery" class="service-btn">İncele</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-us">
+            <div class="container">
+                <div class="why-us-content">
+                    <div class="why-us-text">
+                        <span class="section-subtitle">Neden Biz?</span>
+                        <h2 class="section-title">15 Yıllık Deneyim ve Profesyonel Ekip</h2>
+                        <p class="description">Katia Beauty olarak, güzellik ve bakım konusunda en son trendleri ve teknikleri uyguluyoruz. Steril ortamımız ve uzman kadromuzla sizlere en iyi hizmeti sunuyoruz.</p>
+                        <div class="features">
+                            <div class="feature">
+                                <span class="feature-number">1500+</span>
+                                <span class="feature-text">Mutlu Müşteri</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-number">15+</span>
+                                <span class="feature-text">Yıllık Deneyim</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-number">4</span>
+                                <span class="feature-text">Uzman Personel</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why-us-image">
+                        <img src="images/salon-interior.jpg" alt="Katia Beauty Salon">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <div class="gallery-intro">
+                    <span class="section-subtitle">Çalışmalarımız</span>
+                    <h2 class="section-title">Son Çalışmalarımızdan Örnekler</h2>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/nails.jpg" alt="Protez Tırnak Çalışması">
+                        <div class="gallery-overlay">
+                            <h3>Protez Tırnak</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/eyelash.jpg" alt="İpek Kirpik Uygulaması">
+                        <div class="gallery-overlay">
+                            <h3>İpek Kirpik</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=1000" alt="Cilt Bakımı Uygulaması">
+                        <div class="gallery-overlay">
+                            <h3>Cilt Bakımı</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="contact-intro">
+                    <span class="section-subtitle">İletişim</span>
+                    <h2 class="section-title">Bize Ulaşın</h2>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon">📍</div>
+                            <h3>Adres</h3>
+                            <p>Bağdat Caddesi No:123<br>Kadıköy, İstanbul</p>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">📞</div>
+                            <h3>Telefon</h3>
+                            <p><a href="tel:+902161234567">0216 123 45 67</a></p>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">📧</div>
+                            <h3>E-posta</h3>
+                            <p><a href="mailto:info@katiabeauty.com">info@katiabeauty.com</a></p>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">⏰</div>
+                            <h3>Çalışma Saatleri</h3>
+                            <p>Pazartesi - Cumartesi<br>09:00 - 20:00</p>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Adınız Soyadınız" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone" placeholder="Telefon Numaranız" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="E-posta Adresiniz" required>
+                            </div>
+                            <div class="form-group">
+                                <select id="service" name="service" required>
+                                    <option value="">Hizmet Seçiniz</option>
+                                    <option value="protez-tirnak">Protez Tırnak</option>
+                                    <option value="ipek-kirpik">İpek Kirpik</option>
+                                    <option value="cilt-bakimi">Cilt Bakımı</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Mesajınız" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Gönder</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <h3>Bizi Takip Edin</h3>
+                    <div class="social-links">
+                        <a href="https://instagram.com" target="_blank" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://tiktok.com" target="_blank" class="social-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17 2h-3v6h3v14h4V8h3l1-6h-4V2zM9 16a3 3 0 1 1-6 0v-3h6v3z"></path>
+                                <path d="M12 14h3v-8h-3v8z"></path>
+                            </svg>
+                            <span>TikTok</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Katia Beauty. Tüm hakları saklıdır.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
